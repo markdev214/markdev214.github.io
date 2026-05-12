@@ -50,7 +50,7 @@ export default function Hero() {
           className="flex items-center gap-2 font-semibold text-lg"
         >
           <h2 className="text-md md:text-2xl font-light tracking-tight leading-tight">
-            Mark Dazey
+            Mark D
           </h2>
         </Link>
 
