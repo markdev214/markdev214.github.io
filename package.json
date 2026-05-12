@@ -4,9 +4,9 @@
   "homepage": "https://markdev214.github.io",
   "scripts": {
     "dev": "next dev",
-    "predeploy": "next build",
-    "start": "next start",
-    "deploy": "gh-pages -d build"
+    "build": "next build",
+    "deploy": "next build && gh-pages -d out",
+    "start": "next start"
   },
   "dependencies": {
     "autoprefixer": "^10.4.14",
@@ -24,6 +24,7 @@
     "@types/node": "24.2.0",
     "@types/react": "19.1.9",
     "gh-pages": "^6.3.0",
-    "typescript": "5.9.2"
+    "stylelint-config-tailwindcss": "^1.0.1",
+    "typescript": "^6.0.3"
   }
 }

@@ -59,7 +59,7 @@ export default function Hero() {
           {['Services', 'Projects', 'Testimonials', 'Contact'].map((item) => (
             <Link
               key={item}
-              href={`#`}
+              href={`#${item.toLowerCase()}`}
               className="hover:text-white transition"
             >
               {item}
